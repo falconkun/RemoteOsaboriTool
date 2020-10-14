@@ -43,7 +43,7 @@ def judgeunit():
 # 画面作成
 tki = tkinter.Tk()
 tki.geometry("400x300")
-tki.title('SavageOperatio')
+tki.title('SavageOperation')
 
 # コンボボックス作成(winに配置, リストの値を読み取り専用に設定)
 combo = tkinter.ttk.Combobox(tki, state="readonly", width=5)
